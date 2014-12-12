@@ -26,11 +26,11 @@
 ###via Package Control###
 
 1. Make sure you already have Package Control installed
-2. Choose Install Package from the Command Palette (Ctrl+Shift+P on Windows/Linux, ⇧⌘P on OS X)
+2. Choose Install Package from the Command Palette (Ctrl+Shift+P on Windows/Linux, ⇧⌘P on iOS)
 3. Select 1337 Color Scheme and press Enter
 
 ###or Manual Installation###
 
 1. Download the 1337.tmTheme file
-2. Browse Packages from the Command Palette (Ctrl+Shift+P on Windows/Linux, ⇧⌘P on OS X)
+2. Browse Packages from the Command Palette (Ctrl+Shift+P on Windows/Linux, ⇧⌘P on iOS)
 3. Copy the .tmTheme file to Packages
