@@ -1,4 +1,4 @@
-1337 Color Scheme
+1337 Scheme
 =====================
 
 1337 is a color-scheme for dark Sublime Text
