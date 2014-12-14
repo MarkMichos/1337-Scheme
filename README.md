@@ -7,19 +7,19 @@
 
 ###CSS example###
 
-![CSS](http://abload.de/img/1337_css26u6p.jpg)
+![CSS](http://abload.de/img/css05rfw.jpg)
 
 ###HTML example###
 
-![HTML](http://abload.de/img/1337_html19u4l.jpg)
+![HTML](http://abload.de/img/htmlx2oh5.jpg)
 
 ###JavaScript example###
 
-![JavaScript](http://abload.de/img/1337_javascriptr6ukr.jpg)
+![JavaScript](http://abload.de/img/javascriptuholn.jpg)
 
 ###Ruby example###
 
-![Ruby](http://abload.de/img/1337_rubyw8u3f.jpg)
+![Ruby](http://abload.de/img/ruby3urnk.jpg)
 
 ##Installation:##
 
