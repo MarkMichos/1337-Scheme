@@ -472,11 +472,11 @@
 			<key>name</key>
 			<string>Language Literal</string>
 			<key>scope</key>
-			<string>literal-language-variable</string>
+			<string>variable.language.super, variable.language.this, variable.language.self</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#29a329</string>
+				<string>#d699ff</string>
 			</dict>
 		</dict>
 	</array>
