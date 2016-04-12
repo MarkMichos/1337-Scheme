@@ -468,6 +468,17 @@
 				<string>#66a9ec</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Language Literal</string>
+			<key>scope</key>
+			<string>literal-language-variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#29a329</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>233F0694-0B9C-43E3-A44A-ECECF7DF6C73</string>
