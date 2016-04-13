@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- author:  Mark Herpich https://twitter.com/TheMarkWithK    -->
-<plist version="1.0">
+<plist version="1.1">
 <dict>
 	<key>name</key>
 	<string>1337</string>
@@ -466,6 +466,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#66a9ec</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Language Literal</string>
+			<key>scope</key>
+			<string>variable.language.super, variable.language.this, variable.language.self</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d699ff</string>
 			</dict>
 		</dict>
 	</array>
