@@ -510,7 +510,7 @@ SOFTWARE.
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D26480</string>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 		<dict>
@@ -521,7 +521,7 @@ SOFTWARE.
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A0B549</string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -532,7 +532,7 @@ SOFTWARE.
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#967EFB</string>
+				<string>#CC00FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -543,7 +543,7 @@ SOFTWARE.
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#565656</string>
+				<string>#999999</string>
 			</dict>
 		</dict>
 		<dict>
@@ -557,6 +557,50 @@ SOFTWARE.
 				<string>#565656</string>
 			</dict>
 		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>diff.header</string>
+		    <key>scope</key>
+		    <string>meta.diff, meta.diff.header</string>
+		    <key>settings</key>
+		    <dict>
+			<key>foreground</key>
+			<string>#75715E</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>diff.deleted</string>
+		    <key>scope</key>
+		    <string>markup.deleted</string>
+		    <key>settings</key>
+		    <dict>
+			<key>foreground</key>
+			<string>#F92672</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>diff.inserted</string>
+		    <key>scope</key>
+		    <string>markup.inserted</string>
+		    <key>settings</key>
+		    <dict>
+			<key>foreground</key>
+			<string>#A6E22E</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>diff.changed</string>
+		    <key>scope</key>
+		    <string>markup.changed</string>
+		    <key>settings</key>
+		    <dict>
+			<key>foreground</key>
+			<string>#CC00FF</string>
+		    </dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>233F0694-0B9C-43E3-A44A-ECECF7DF6C73</string>
@@ -567,6 +611,6 @@ SOFTWARE.
 	<key>author</key>
 	<string>Mark Herpich</string>
 	<key>comment</key>
-	<string>http:&#x2f;&#x2f;www.twitter.com&#x2f;TheMarkWithK</string>
+	<string>http:&#x2f;&#x2f;www.twitter.com&#x2f;markisrocking</string>
 </dict>
 </plist>
