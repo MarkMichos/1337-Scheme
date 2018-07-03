@@ -1,61 +1,45 @@
-1337 Scheme
-=====================
+# 1337 Scheme
 
-1337 is a color-scheme for dark Sublime Text
+[![License](https://img.shields.io/github/license/MarkMichos/1337-Scheme.svg?style=flat-square)](https://github.com/MarkMichos/1337-Scheme/blob/master/LICENSE)
+[![Downloads Package Control](https://img.shields.io/packagecontrol/dt/1337%20Color%20Scheme.svg?style=flat-square)](https://packagecontrol.io/packages/1337%20Color%20Scheme)
+[![Latest release](https://img.shields.io/github/release/MarkMichos/1337-Scheme.svg?style=flat-square)](https://github.com/MarkMichos/1337-Scheme/releases/latest)
 
-## Screenshots: ##
+> 1337 is a dark Color-Scheme for [Sublime Text](https://www.sublimetext.com).
 
-### CSS example ###
+## Screenshots:
+
+### CSS example
 
 ![CSS](http://abload.de/img/css05rfw.jpg)
 
-### HTML example ###
+### HTML example
 
 ![HTML](http://abload.de/img/htmlx2oh5.jpg)
 
-### JavaScript example ###
+### JavaScript example
 
 ![JavaScript](http://abload.de/img/javascriptuholn.jpg)
 
-### Ruby example ###
+### Ruby example
 
 ![Ruby](http://abload.de/img/ruby3urnk.jpg)
 
-## Installation: ##
+## Installation:
 
-### via Package Control ###
+### via Package Control
 
-1. Make sure you already have Package Control installed
-2. Choose Install Package from the Command Palette (Ctrl+Shift+P on Windows/Linux, ⇧⌘P on iOS)
-3. Select 1337 Color Scheme and press Enter
+1. Make sure you already have [Package Control](https://packagecontrol.io/installation) installed.
+2. Choose Install Package from the Command Palette (via `Tools > Coomand Palette` from the main menu).
+3. Select **`1337 Color Scheme`** and press <kbd>Enter</kbd>.
 
-### or Manual Installation ###
+### or Manual Installation
 
-1. Download the 1337.tmTheme file
-2. Browse Packages from the Command Palette (Ctrl+Shift+P on Windows/Linux, ⇧⌘P on iOS)
-3. Copy the .tmTheme file to Packages
-
+1. Download the desired **`1337 Color Scheme`** file.
+2. Browse Packages from the Command Palette (via `Preferences > Browse packages` from the main menu).
+3. Copy the **`1337 Color Scheme`** file to `Packages/User/`.
 
 ## LICENSE ##
 
-MIT License
-
 Copyright (c) 2017 Mark Herpich
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+See [`LICENSE`](./LICENSE) for details.

@@ -1,0 +1,305 @@
+{
+    "name": "1337",
+    "author": "Mark Herpich",
+    "variables":
+    {
+        "black": "#191919",
+        "blue": "#8cdaff",
+        "blue2": "#97d8ea",
+        "blue3": "#66d9ef",
+        "blue4": "#90e7f7",
+        "blue5": "#66a9ec",
+        "blue6": "#6699cc",
+        "grey": "#3b3a32",
+        "grey2": "#999999",
+        "grey3": "#3d3d3d",
+        "grey4": "#515151",
+        "grey5": "#565656",
+        "grey6": "#6d6d6d",
+        "grey7": "#d0d0d0",
+        "orange": "#fab85a",
+        "orange2": "#ff8942",
+        "orange3": "#fc9354",
+        "orange4": "#fdb082",
+        "orange5": "#fbdfb5",
+        "orange6": "#ff9664",
+        "orange7": "#ffd2a6",
+        "pink": "#e5a5e0",
+        "pink2": "#cd5ac5",
+        "pink3": "#ffb2f9",
+        "purple": "#d699ff",
+        "purple2": "#cc00ff",
+        "red": "#ff5e5e",
+        "red2": "#f92649",
+        "red3": "#d66990",
+        "red4": "#e05d8c",
+        "red5": "#f92672",
+        "white": "#ffffff",
+        "white2": "#fbe3bf",
+        "white3": "#ffe1fc",
+        "white4": "#ffd0fb",
+        "white5": "#f8f8f0",
+        "white6": "#f8f8f2",
+        "white7": "#ecfdb9",
+        "yellow": "#a6e22e",
+        "yellow2": "#e9fdac",
+        "yellow3": "#75715e"
+    },
+    "globals":
+    {
+        "foreground": "var(white6)",
+        "background": "var(black)",
+        "caret": "var(white5)",
+        "invisibles": "var(grey)",
+        "line_highlight": "color(var(grey3) alpha(0.33))",
+        "selection": "var(grey4)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(grey6)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(orange2)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(orange5)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(blue)",
+            "font_style": "underline"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(blue)",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(orange3)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(blue6)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(white7)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable"
+        },
+        {
+            "name": "PHP Namespaces",
+            "scope": "support.other.namespace, entity.name.type.namespace",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "PHP Namespace Alias",
+            "scope": "support.other.namespace.use-as.php",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "PHP Namespace Keyword",
+            "scope": "variable.language.namespace.php",
+            "foreground": "var(red3)"
+        },
+        {
+            "name": "PHP Namespace Separator",
+            "scope": "punctuation.separator.inheritance.php",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "CSS Functions / Property Values",
+            "scope": "support.function.misc.css, support.constant.property-value.css, support.constant.font-name.css",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Twig Tagbraces",
+            "scope": "meta.tag.template.value.twig, meta.tag.template.block.twig",
+            "foreground": "var(pink2)"
+        },
+        {
+            "name": "Twig Keywords",
+            "scope": "keyword.control.twig",
+            "foreground": "var(red4)"
+        },
+        {
+            "name": "Twig Objects",
+            "scope": "variable.other.twig",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Twig Object Properties",
+            "scope": "variable.other.property.twig",
+            "foreground": "var(white3)"
+        },
+        {
+            "name": "Twig Language Constants",
+            "scope": "constant.language.twig",
+            "foreground": "var(orange7)"
+        },
+        {
+            "name": "Twig Numerical Constants",
+            "scope": "constant.numeric.twig",
+            "foreground": "var(white4)"
+        },
+        {
+            "name": "Twig Filters",
+            "scope": "support.function.twig",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "Twig User-Defined Filters",
+            "scope": "meta.function-call.other.twig",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Twig Macros",
+            "scope": "meta.function-call.twig",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white5)",
+            "background": "var(red2)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white5)",
+            "background": "var(orange6)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Text",
+            "scope": "variable.parameter.function",
+            "foreground": "var(grey7)"
+        },
+        {
+            "name": "Attribute IDs",
+            "scope": "entity.other.attribute-name.id, punctuation.definition.entity",
+            "foreground": "var(blue5)"
+        },
+        {
+            "name": "Language Literal",
+            "scope": "variable.language.super, variable.language.this, variable.language.self",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(purple2)"
+        },
+        {
+            "name": "GitGutter ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "GitGutter untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": "var(grey5)"
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(yellow3)"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(purple2)"
+        }
+    ]
+}
